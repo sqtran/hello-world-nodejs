@@ -1,17 +1,24 @@
 # hello-world-nodejs
-Hello World example, and prints header information
+Simple Hello Hello REST Controller example.
 
-last tested with `nodeJS` version v12.8.1 - but it might work for others
+Prints header information and example JSON response using `Restify`
+
+Last tested with `nodeJS` version v12.8.1 - but it might work for others
 
 
-Run it with this
+## Run it
+
+Start up the server with this.  You might need to run `npm install` too.
+
 ```bash
 node .
 ```
 
 
-Then test it with this
+## Test it
 
+Just hit these end points
 ```bash
-curl locahost:8088
+curl localhost:8080
+curl localhost:8080/headers
 ```
