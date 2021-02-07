@@ -1,8 +1,11 @@
 {
   "name": "hello-world-nodejs",
-  "version": "0.0.1",
-  "description": "A simple hello world example, with some useful debugging output\"",
+  "version": "0.0.2",
+  "description": "A simple hello world example, with some useful debugging output",
   "main": "index.js",
+  "dependencies": {
+    "restify": ">=8.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
